@@ -17,7 +17,7 @@ site:
   language: cn
   multi_language: true
   logo: https://img-blog.csdnimg.cn/20210313122054101.png
-  avatar: https://cdn.itmirror.top/img/%E5%A4%B4%E5%83%8F.jpg
+  avatar: /img/avatar.jpg
   beian:
     number: '闽ICP备2022001097号-1'
     link: ''
@@ -31,9 +31,9 @@ site:
 #! ---------------------------------------------------------------
 authors:
   ##! example
-  TriDiamond:
-    name: TriDiamond
-    avatar: https://up.enterdesk.com/edpic_source/44/ff/3d/44ff3d6bd2819d524facfcc33205d4cd.jpg
+  Coderkpc:
+    name: coderkpc
+    avatar: /img/avatar.jpg
     link: https://github.com/coderkpc
     description: 'Think like an artist, code like an artisan.'
     socials:
@@ -53,14 +53,21 @@ menu:
   About: true
   Tags: true
   Archives: true
+  # 多级 projects 菜单配置
+  Friends-link:
+    name: '友情链接'
+    children:
+      gxg:
+        name: '古向高的博客'
+        path: 'https://guxianggao.github.io/'
 
 #! ---------------------------------------------------------------
 #! Theme Config
 #! @docs https://aurora.tridiamond.tech/guide/theme.html
 #! ---------------------------------------------------------------
 theme:
-  dark_mode: true
-  profile_shape: diamond # support `circle`, `diamond`, `rounded`
+  dark_mode: false
+  profile_shape: rounded # support `circle`, `diamond`, `rounded`
   feature: true
   gradient:
     color_1: '#24c6dc'
@@ -72,6 +79,13 @@ theme:
 #! @docs https://aurora.tridiamond.tech/guide/social.html
 #! ---------------------------------------------------------------
 socials:
+  github: https://github.com/coderkpc
+  twitter: ''
+  stackoverflow: 'https://stackoverflow.com/users/17969713/coderkpc'
+  weibo: 'https://weibo.com/u/1952031221'
+  zhihu: ''
+  csdn: ''
+  juejin: 'https://juejin.cn/user/2824000478380813'
   customs:
   ##! Example:
   ##! --- Using SVG
