@@ -17,10 +17,10 @@ site:
   language: cn
   multi_language: true
   logo: https://img-blog.csdnimg.cn/20210313122054101.png
-  avatar: https://img-blog.csdnimg.cn/20210313122054101.png
+  avatar: https://cdn.itmirror.top/img/%E5%A4%B4%E5%83%8F.jpg
   beian:
     number: '闽ICP备2022001097号-1'
-    link: 'itmirror.top'
+    link: ''
   police_beian:
     number: ''
     link: ''
@@ -38,6 +38,12 @@ authors:
     description: 'Think like an artist, code like an artisan.'
     socials:
       github: https://github.com/coderkpc
+      twitter: ''
+      stackoverflow: 'https://stackoverflow.com/users/17969713/coderkpc'
+      weibo: 'https://weibo.com/u/1952031221'
+      zhihu: ''
+      csdn: ''
+      juejin: 'https://juejin.cn/user/2824000478380813'
 
 #! ---------------------------------------------------------------
 #! Menu Configs
@@ -105,11 +111,11 @@ gitalk:
   autoExpand: true
   clientID: ''
   clientSecret: ''
-  repo: 'dev-blog-comments'
-  owner: 'TriDiamond'
-  admin: ['TriDiamond']
+  repo: 'hexo-project'
+  owner: 'coderkpc'
+  admin: ['coderkpc']
   id: uid
-  language: en
+  language: cn
   distractionFreeMode: true
   recentComment: true
   proxy: ''
@@ -138,11 +144,11 @@ busuanzi:
 copy_protection:
   enable: true
   author:
-    cn: 作者
-    en: Author
+    cn: 作者 柯芃丞
+    en: Author Coderkpc
   link:
-    cn: 本文来自于
-    en: Article is from
+    cn: 本文来自于 柯芃丞的博客
+    en: Article is from Coderkpc's Blog
   license:
     cn: 博客内容遵循 署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议
     en: This content is shared under the CC BY-NC-SA 4.0 protocol (Non-Commercial)
