@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "postinstall": "patch-package",
     "prebuild": "hexo clean",
     "build": "hexo generate",
     "postbuild": "hexo deploy",
@@ -23,6 +24,7 @@
     "hexo-renderer-marked": "^5.0.0",
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
-    "hexo-theme-aurora": "^1.5.5"
+    "hexo-theme-aurora": "^1.5.5",
+    "patch-package": "^6.4.7"
   }
 }

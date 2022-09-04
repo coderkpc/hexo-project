@@ -1,0 +1,26 @@
+diff --git a/node_modules/hexo-theme-aurora/data/cn.yml b/node_modules/hexo-theme-aurora/data/cn.yml
+index e4d9791..2842ebf 100644
+--- a/node_modules/hexo-theme-aurora/data/cn.yml
++++ b/node_modules/hexo-theme-aurora/data/cn.yml
+@@ -10,7 +10,7 @@ scripts:
+ css:
+   - <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/themes/prism.min.css"/>
+   - <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/prism/1.23.0/plugins/toolbar/prism-toolbar.min.css"/>
+-  - <link rel="stylesheet" href="https://fonts.loli.net/css?family=Rubik" />
++  - <link rel="stylesheet" href="https://cdn.itmirror.top/css/Rubik.css" />
+ 
+ plugins:
+   gitalk:
+diff --git a/node_modules/hexo-theme-aurora/data/en.yml b/node_modules/hexo-theme-aurora/data/en.yml
+index 13beb02..2bc699c 100644
+--- a/node_modules/hexo-theme-aurora/data/en.yml
++++ b/node_modules/hexo-theme-aurora/data/en.yml
+@@ -10,7 +10,7 @@ scripts:
+ css:
+   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism.min.css"/>
+   - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/toolbar/prism-toolbar.css"/>
+-  - <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik"/>
++  - <link rel="stylesheet" href="https://cdn.itmirror.top/css/Rubik.css" />
+ 
+ plugins:
+   gitalk:
